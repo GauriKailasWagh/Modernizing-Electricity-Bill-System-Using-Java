@@ -35,3 +35,64 @@ Calculate total electricity units consumed.
 Formula:
 
 Units Consumed = Current Reading - Previous Reading
+
+## 💰 Bill Calculation
+
+The system calculates the electricity bill according to the units of electricity consumed and the applicable tariff rates.
+
+The bill can include:
+
+Electricity consumption charges
+Fixed charges
+Additional charges
+Applicable taxes
+
+## 🧾 Bill Generation
+Generate electricity bills.
+Display customer information.
+Display meter reading details.
+Display units consumed.
+Display total bill amount.
+Display payment status.
+
+## 💳 Payment Management
+Record customer payments.
+Maintain paid and unpaid bill status.
+Track payment history.
+View billing records.
+
+## 🔐 Login System
+User login authentication.
+Provides controlled access to the application.
+
+## 🔄 Project Workflow
+Login
+   ↓
+Customer Registration
+   ↓
+Enter Meter Reading
+   ↓
+Calculate Units
+   ↓
+Calculate Bill
+   ↓
+Generate Bill
+   ↓
+Record Payment
+   ↓
+Update Payment Status
+   ↓
+View Bill History
+
+## 🗄️ Database
+
+The project uses MySQL to store and manage customer and billing information.
+
+Main Tables
+Customer
+Meter_Reading
+Bill
+Payment
+User
+
+The Java application connects to the MySQL database using JDBC (Java Database Connectivity).
